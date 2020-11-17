@@ -24,7 +24,6 @@ set wildmenu wildmode=list:longest,full
 set ignorecase
 set smartcase
 set spelllang+=cjk
-set spell
 set list
 set listchars=tab:>.,trail:_
 set backspace=indent,eol,start
