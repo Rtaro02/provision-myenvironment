@@ -9,6 +9,7 @@ set guioptions-=b
 set clipboard=unnamed
 set ruler
 set number
+set paste
 set expandtab tabstop=4 shiftwidth=4 softtabstop=0
 set autoindent
 set smartindent
