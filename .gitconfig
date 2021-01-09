@@ -10,6 +10,7 @@
 [core]
   autocrlf = input                 # CRLFを自動変換
   quotepath = false
+  editor = vim
 [alias]
   st = status
   sh = show
