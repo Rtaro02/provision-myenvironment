@@ -16,6 +16,7 @@ echo -e "\n[user]\n  email="$EMAIL"\n  name="$NAME"\n" >> ~/.gitconfig
 
 # vim
 cp .vimrc ~/.
+cp .tmux.conf ~/.
 
 git clone https://github.com/w0ng/vim-hybrid.git
 mkdir -p ~/.vim/colors/
