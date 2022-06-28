@@ -16,6 +16,12 @@ echo -e "\n[user]\n  email="$EMAIL"\n  name="$NAME"\n" >> ~/.gitconfig
 
 # vim
 cp .vimrc ~/.
+
+# neobundle
+mkdir -p ~/.vim/bundle
+git clone https://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+
+# tmux
 cp .tmux.conf ~/.
 
 git clone https://github.com/w0ng/vim-hybrid.git
